@@ -5,7 +5,7 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
-import imagepy as imp
+#import imagepy as imp
 
 #import tensorflow.compat.v1 as tf
 import tensorflow_hub as hub
@@ -76,9 +76,14 @@ def chatbot_response(msg):
     return res
 	
 def image_response(img_path):
-    dataset_labels = imp.dataset_labels
+    #dataset_labels = imp.dataset_labels
+    dataset_labels = (['Abs System','Airbag Srs','Battery Charge','Brake System',
+        'Check Engine','Diesel Particulate Filter', 'Electric Power Steering',
+        'High Engine Coolant Temperature' 'Low Fuel' 'Master System Warning',
+        'Oil Pressure' 'Tyre Pressure'])
     img = image.load_img(img_path, target_size=(224, 224))
     img = image.img_to_array(img)  # convert image to numpy arry
+    img /= 255
     img = img.reshape((1,) + img.shape)
     #img = np.expand_dims(img, axis=0)
     tf_model_predictions = image_model.predict(img)
