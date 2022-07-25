@@ -6,7 +6,7 @@ lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 #import imagepy as imp
-from tensorflow.keras.utils import load_img
+from tensorflow.keras.utils import load_img, img_to_array
 
 #import tensorflow.compat.v1 as tf
 import tensorflow_hub as hub
@@ -83,7 +83,7 @@ def image_response(img_path):
         'High Engine Coolant Temperature' 'Low Fuel' 'Master System Warning',
         'Oil Pressure' 'Tyre Pressure'])
     img = load_img(img_path, target_size=(224, 224))
-    img = image.img_to_array(img)  # convert image to numpy arry
+    img = img_to_array(img)  # convert image to numpy arry
     img /= 255
     img = img.reshape((1,) + img.shape)
     #img = np.expand_dims(img, axis=0)
