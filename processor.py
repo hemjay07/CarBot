@@ -17,11 +17,11 @@ import random
 #graph = tf.get_default_graph()
 
 #with graph.as_default():
-model = load_model('chatbot_model.h5')
-image_model = load_model('image_model.h5', custom_objects={'KerasLayer':hub.KerasLayer} )
+model = load_model('models/chatbot_model.h5')
+image_model = load_model('models/image_model.h5', custom_objects={'KerasLayer':hub.KerasLayer} )
 intents = json.loads(open('intents.json', encoding='utf-8').read())
-words = pickle.load(open('words.pkl','rb'))
-classes = pickle.load(open('classes.pkl','rb'))
+words = pickle.load(open('models/words.pkl','rb'))
+classes = pickle.load(open('models/classes.pkl','rb'))
 
 
 
