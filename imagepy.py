@@ -79,6 +79,6 @@ steps_per_epoch=steps_per_epoch,
 validation_data=valid_generator,
 validation_steps=val_steps_per_epoch).history
 
-model.save('image_model.h5', hist)
+model.save('models/image_model.h5', hist)
 
 print('Image Model saved')
