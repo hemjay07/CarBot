@@ -1,7 +1,7 @@
 Flask==2.1.0
 numpy==1.16.1
 gunicorn==19.9.0
-Werkzeug==0.15.3
+Werkzeug>=2.0.3
 tensorflow>=1.12.1
 Keras-Applications>=1.0.7
 Keras-Preprocessing>=1.0.8
