@@ -34,72 +34,38 @@
   <section id="hero" class="d-flex align-items-center" style="height: 30px; position: relative;">
 
  
-    <header id="header" class="fixed-top ">
+   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center" style="height: 50px; position: relative; padding-bottom: 20px">
+<style>.containerx{
+  width:50%;
+  margin:0;
+  padding:0;
+  float:left;
+}</style>
+<div class="containerx">
+  <a href="index.html" class="logo me-auto"><img src="{{url_for('static', filename='assets/img/bothead.png')}}" alt="" class="img-fluid" float:left;></a>
+  <h1 class="logo me-auto"><a href="index.html">CarBot.</a></h1>
+</div>
+<div class="containerx">
+     <form action="/image" method="POST" id="image_question" enctype="multipart/form-data">
+ <button style="display:block;width:80px; height:25px;border-radius: 5px;" onclick="document.getElementById('image_question').click()">Upload</button>
+  <input style="display:none" type="file" class="btn"  name="image_question" id="image_question" style="color: white  ;border-radius: 10px;" accept="image/*">
+  <button style="display:block;width:80px; height:25px;border-radius: 5px;" onclick="document.getElementById('image_question').click()">Camera</button>
+  <input style="display:none" type="file" class="btn"  name="image_question" id="image_question" style="color: white  ;border-radius: 10px;" accept="image/*" capture="environment">
 
-     
-     <h1 class="logo me-auto"><a href="index.html">CarBot.</a></h1>
-     <a href="index.html" class="logo me-auto"><img src="{{url_for('static', filename='assets/img/bothead.png')}}" alt="" class="img-fluid"></a>
-
-     
-                   
-                   <left> <div class="input-group mb-0">
-                         <form action="/image" method="POST" id="image_question" enctype="multipart/form-data">
-                          <input type="file" class="btn"  name="image_question" id="image_question" style="font-size: 16px;color: white  ;border-radius: 10px;" accept="image/*" capture="environment" required><br>
-          
           <input type="submit" class="btn" id="image-button"
             style="font-size: 16px;color:white;border-radius: 10px;">
         </form>
-                    
-          
-                           
-                            
-                        </div></left>
+  </div>
+
+     
+     <!-- ======= <h1 class="logo me-auto"><a href="index.html">CarBot.</a></h1>======= -->
+     
+
+     
+                   
     </div>
   </header>
-   
-
-
-
-  </section><!-- End Hero -->
- <div style="height: 30px;"></div>
-
-<div class="container">
-<div class="row clearfix">
-    <div class="col-lg-12">
-        
-            
-            <div class="chat">
-                
-                <div class="chat-history">
-                    <ul class="m-b-0">
-
-                        <div id="response" style="display:flex; flex-direction: column; width: 100%;">
-                          <li class='clearfix'>
-                            <div class='message-data'>
-                              <img src='../static/assets/img/bothead.png' alt='avatar'><span class='message-data-time'>CarBot</span>
-                            </div>
-                            <div class='message my-message'>
-                            Hey dude! Happy to see you. What do you want to ask me about your car today? You can also show me a picture by using the button above. 
-                          </div>
-                        </li>
-                        <br><br><br>
-                      </div>
-                   </ul>
-                </div>
-
-                <!-- Input -->
-               <header id="header" class="fixed-bottom ">
-                <div class="chat-message clearfix">
-                	 
-                    <div class="input-group mb-0">
-                        <div  class="input-group-prepend">
-                            <span class="input-group-text" id="submit-button"><i class="fa fa-send" id="submit-button" ></i></span>
-                        </div>
-                        <input  type="text" class="form-control" name="question" id="question" placeholder="Enter text here..." required>                                    
-                    </div>
-                    </div>
-                </header>
                 
             </div>
             </div>
