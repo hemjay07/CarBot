@@ -96,15 +96,17 @@
                 </div>
 
                 <!-- Input -->
-               <header id="header" class="fixed-bottom ">
+             <header id="header" class="fixed-bottom ">
                 <div class="chat-message clearfix">
                    
                     <div class="input-group mb-0">
+                        
+                        <input  type="text" class="form-control" name="question" id="question" placeholder="Enter text here..." required>
                         <div  class="input-group-prepend">
                             <span class="input-group-text" id="submit-button"><i class="fa fa-send" id="submit-button" ></i></span>
-                        </div>
-                        <input  type="text" class="form-control" name="question" id="question" placeholder="Enter text here..." required><br>                                    
+                        </div><br>                                    
                     </div>
+                   
                    
 
     <form action="/image" method="POST" id="image_question" enctype="multipart/form-data">
