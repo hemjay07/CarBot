@@ -10,5 +10,6 @@ h5py
 pillow
 Keras
 tensorflow-cpu
+protobuf<=3.20.*
 
 
