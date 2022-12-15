@@ -37,6 +37,7 @@ The intents corpus for the NLP was also curated manually and contains possible q
 | | 
 |:-|
 | <img alt="CarBot" src="https://github.com/Ajisco/Ajisco/blob/main/Videos/CarBot.gif">|
+
 <br><br><br>
 
 
