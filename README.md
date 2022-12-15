@@ -68,7 +68,7 @@ The images to test the bot can be found [Here](https://bit.ly/carbot-test-images
 3. few solutions provided for now. <br><br><br>
 
 ## 📍 To improve
-1. I would love to buil a seperate binary classification computer vision model that helps exclude images that are not emergency lights.
+1. I would love to build a seperate binary classification computer vision model that helps exclude images that are not emergency lights.
 2. I would love to integrates some sites or APIs that help to solve car faults or connect to nearby mechanic workshops.
 3. I would love to improve the corpus for the chatbot intents and scrape lots of reliable vehicle aid websites to increase the functionality of the bot. <br><br><br>
 
