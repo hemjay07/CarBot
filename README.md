@@ -1,7 +1,7 @@
 
 
 
-![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=header&text=CarBot.&fontSize=60)
+![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&width=100%&section=header&text=CarBot.&fontSize=60)
 
 
 ## 🗒 Problem Statement
