@@ -1,6 +1,3 @@
-
-
-
 ![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=header&text=CarBot.&fontSize=60)
 
 
@@ -25,10 +22,12 @@ The intents corpus for the NLP was also curated manually and contains possible q
 * Data wrangling (Pandas, Numpy)
 * Data Analysis and Visualization. (Seaborn, Matplotlib)
 * Machine/ Deep learning (Tensorflow, Scikit Learn)
-* Computer Vision (CNN, Open CV Transfer Learning)
+* Computer Vision (CNN, MLP, Open CV, Transfer Learning)
 * Natural Language Processing (RNN, LSTM)
 * Backend (Flask, Ajax.js)
-* Frontend (HTML, CSS, Bootstrap)<br><br><br>
+* Frontend (HTML, CSS, Bootstrap)
+* Cloud deployment (Railway, Heroku)
+<br><br><br>
 
 
 
