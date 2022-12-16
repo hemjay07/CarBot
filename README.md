@@ -45,9 +45,9 @@ The intents corpus for the NLP was also curated manually and contains possible q
 #### This Jupyter notebook containing some exploratory analysis, model training and evaluation can be found [Here](https://github.com/Ajisco/CarBot/blob/master/CV%20Model.ipynb/) <br><br><br>
 
 ## 📍 App FEATURES 
-1. Virtual assistant inform of a bot that chats with user, available 24/7.
+1. Virtual assistant in form of a bot that chats with user, available 24/7.
 2. The bot accepts pictures as input, Camera available in mobile version.
-3. Web app compatible by every device. <br><br><br>
+3. Web app compatible with every device. <br><br><br>
 
 
 
