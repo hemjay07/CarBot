@@ -7,7 +7,7 @@ During a journey if one or more of them stay on or turn on, it may indicate that
 It takes professional or experience expertise to diagnose the faults which eventually results to causing traffic issues, more damage or time wasting affecting the owner and people around. <br><br><br>
 
 ## 📍 Objective 
-The aim of this project is to build a bot app that uses AI (Computer Vision and NLP) to diagnose the car faults from chats and pictures of the emergency lights.<br>
+The aim of this project is to build a bot app that uses AI (Computer Vision and NLP) to diagnose car faults from chats and pictures of the emergency lights.<br>
 The user chats with the bot about issues relating to car faults and emergrncy light and also sends picture of the light for the bot to diagnose and provide possible solution.<br><br><br>
 
 
