@@ -33,7 +33,7 @@ The intents corpus for the NLP was also curated manually and contains possible q
 
 ## 📍 VIDEO DEMO
 
-#### [CarBot](https://https://carbot.up.railway.app/)
+#### [CarBot](https://carbot.up.railway.app/)
 | | 
 |:-|
 | <img alt="CarBot" src="https://github.com/Ajisco/Ajisco/blob/main/Videos/CarBot.gif">|
