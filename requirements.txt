@@ -12,5 +12,5 @@ pillow
 Keras
 tensorflow-cpu
 protobuf<=3.20.*
-wsgi
+mod_wsgi
 
