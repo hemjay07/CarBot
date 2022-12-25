@@ -1,6 +1,7 @@
 Flask
 numpy
 gunicorn
+uvicorn
 Werkzeug
 Keras-Applications
 Keras-Preprocessing
