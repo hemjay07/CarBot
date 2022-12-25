@@ -1,6 +1,6 @@
 import nltk
-#nltk.download('punkt')
-nltk.download('all')
+nltk.download('punkt')
+#nltk.download('all')
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
