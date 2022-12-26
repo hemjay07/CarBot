@@ -12,7 +12,7 @@ pillow
 Keras
 tensorflow-cpu
 protobuf<=3.20.*
-mod_wsgi
+
 httpd-devel
 apxs
 mod-wsgi-httpd
