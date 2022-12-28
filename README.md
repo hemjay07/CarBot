@@ -33,7 +33,7 @@ The intents corpus for the NLP was also curated manually and contains possible q
 
 ## 📍 VIDEO DEMO
 
-#### [CarBot](https://carbot.up.railway.app/)
+#### [CarBot](https://carbot.onrender.com)
 | | 
 |:-|
 | <img alt="CarBot" src="https://github.com/Ajisco/Ajisco/blob/main/Videos/CarBot.gif">|
@@ -54,9 +54,9 @@ The intents corpus for the NLP was also curated manually and contains possible q
 
 ## 📍 DEPLOYMENT 🚀
 
-#### This app is deployed at [Railway](https://railway.app/)
+#### This app is deployed at [Railway](https://render.com)
 	
-#### You can access it [Here](https://carbot.up.railway.app/) <br><br><br>
+#### You can access it [Here](https://carbot.onrender.com) <br><br><br>
 
 
 ## 📍 App use and testing
@@ -66,12 +66,14 @@ The images to test the bot can be found [Here](https://bit.ly/carbot-test-images
 ## 📍 Limitations
 1. The chatbot only answers limited questions (focused on some car faults/ issues)
 2. The app does not exclude images that are not related to the problem.
-3. few solutions provided for now. <br><br><br>
+3. few solutions provided for now. 
+4. The app is bringing errors because  the free deployment service does not have enough memory to run the app.<br><br><br>
 
 ## 📍 To improve
 1. I would love to build a seperate binary classification computer vision model that helps exclude images that are not emergency lights.
 2. I would love to integrates some sites or APIs that help to solve car faults or connect to nearby mechanic workshops.
-3. I would love to improve the corpus for the chatbot intents and scrape lots of reliable vehicle aid websites to increase the functionality of the bot. <br><br><br>
+3. I would love to improve the corpus for the chatbot intents and scrape lots of reliable vehicle aid websites to increase the functionality of the bot. 
+4. I ould love top deploy the app using a paid cloud srvice with large memory enough run the app and host the dependencies.<br><br><br>
 
 
 ## 📍 Open to collaboration
